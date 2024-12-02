@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  border: 1px solid black;
+}
+.navbar .navleft {
+  display: flex;
+  gap: 20px;
+  width: 50%;
+  background-color: rgb(255, 255, 255);
+}
+.navbar .navleft .menu {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.navbar .navleft .menu .line1 {
+  height: 3px;
+  width: 19px;
+  background-color: rgba(0, 0, 0, 0.685);
+}
+.navbar .navleft .menu .line2 {
+  height: 3px;
+  width: 19px;
+  background-color: rgba(0, 0, 0, 0.623);
+}
+.navbar .navleft .menu .line3 {
+  height: 3px;
+  width: 19px;
+  background-color: rgba(0, 0, 0, 0.699);
+}
+.navbar .navleft .icon {
+  height: 20px;
+  width: 20px;
+  background-color: green;
+  border: 3px solid rgb(255, 208, 0);
+  margin-top: 16px;
+}
+.navbar .navleft .navleftwords {
+  display: flex;
+  gap: 20px;
+}
+.navbar .navleft .navleftwords a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.726);
+}
+.navbar .navleft .navleftwords h1 {
+  margin-top: 12px;
+}
+.navbar .navleft .navleftwords h2 {
+  margin-top: 12px;
+}
+.navbar .navright {
+  width: 50%;
+  display: flex;
+  justify-content: right;
+}
+.navbar .navright .acount {
+  border: 1px solid orange;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  background-color: orange;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.navbar .navright .acount p {
+  color: aliceblue;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .navleftwords h2 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .icon {
+    display: none;
+  }
+}
+.container {
+  display: flex;
+}
+.container .horizonnavbar {
+  height: 100vh;
+  width: 20%;
+  background-color: rgb(235, 235, 235);
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  transition: 2s;
+}
+.container :hover {
+  width: 10%;
+}
+.container .conta {
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  width: 80%;
+}/*# sourceMappingURL=main.css.map */

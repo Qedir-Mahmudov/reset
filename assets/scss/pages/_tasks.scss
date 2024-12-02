@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  .horizonnavbar {
+    height: 100vh;
+    width: 20%;
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    transition: 2s;
+  }
+  h2 {
+  }
+  :hover {
+    width: 10%;
+  }
+  .conta {
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+  }
+}
